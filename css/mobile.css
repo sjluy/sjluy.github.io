@@ -225,6 +225,9 @@
   .post .pjax article .article-title {
     font-size: 1.6em;
   }
+  .post .article_copyright {
+    font-size: 14px;
+  }
   .full-toc .full {
     top: 0px;
     right: 0px;
@@ -275,7 +278,7 @@ font-size
   .nav-right form .cross {
     right: 115px;
   }
-  .post .pjax {
+  .post .pjax .article_copyright {
     font-size: 6px;
   }
   .shang_box {

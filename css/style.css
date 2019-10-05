@@ -1623,6 +1623,47 @@ div.ac > ul > li:before,
   -ms-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
+.post .copyright {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  color: #bcc1c4;
+}
+.post .copyright a {
+  color: #4078c0;
+  word-break: break-all;
+  font-family: sans-serif;
+}
+.post .copyright a:hover {
+  text-decoration: underline;
+}
+.post .article_copyright {
+  padding: 5px 30px;
+  margin-bottom: 20px;
+  background-color: #83b3c1;
+  border-radius: 8px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #444;
+  font-size: 16px;
+}
+.post .article_copyright .copy-title {
+  color: #000;
+  margin-right: 10px;
+}
+.post .article_copyright>p {
+  margin: 0;
+}
+.post .article_copyright a {
+  color: #595f67;
+  word-break: break-all;
+  font-family: sans-serif;
+}
+.post .article_copyright a:hover {
+  text-decoration: underline;
+}
 html,
 body {
   width: 100%;
@@ -1996,6 +2037,9 @@ img.pswp__img {
   .post .pjax article .article-title {
     font-size: 1.6em;
   }
+  .post .article_copyright {
+    font-size: 14px;
+  }
   .full-toc .full {
     top: 0px;
     right: 0px;
@@ -2046,7 +2090,7 @@ font-size
   .nav-right form .cross {
     right: 115px;
   }
-  .post .pjax {
+  .post .pjax .article_copyright {
     font-size: 6px;
   }
   .shang_box {
